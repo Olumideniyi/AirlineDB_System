@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="flightreport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e92321c2-2c56-4c11-98c4-ff7ec9b0638d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="airlineadapter.xml"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="0"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="1000"/>
+	<queryString>
+		<![CDATA[select * from flight
+]]>
+	</queryString>
+	<field name="F_number" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="F_number"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="Aircraft_N" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Aircraft_N"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="Location_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="Location_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="Departure" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Departure"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="D_time" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="D_time"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="Arrival" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Arrival"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="A_time" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="A_time"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="Origin" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Origin"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="Destination" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Destination"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="flight"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

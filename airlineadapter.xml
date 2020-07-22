@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>Airline adapter1</name><driver>com.mysql.jdbc.Driver</driver><username>root</username><password>Niyiolume06@</password><savePassword>true</savePassword><url>jdbc:mysql://localhost:3306/airline</url><database></database><serverAddress></serverAddress><classpath>C:\Users\olusola\eclipse-workspace\webreg\WebContent\WEB-INF\lib\mysql-connector-java-5.1.48.jar</classpath></jdbcDataAdapter>
